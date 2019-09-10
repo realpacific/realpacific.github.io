@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
-import TypeWriter from "./components/TypewriterComponent";
+import TypeWriter from "./components/TypeWriter";
 import {faGithub, faGoogle, faLinkedin, faMedium} from '@fortawesome/free-brands-svg-icons'
 import ReactTooltip from 'react-tooltip'
 import Avatar from "./components/Avatar";
 import SocialIcon from "./components/SocialIcon";
 import Particles from 'react-particles-js';
 import GlitchEffect from 'react-glitch-effect';
-import windowSize from 'react-window-size';
 
 const particlesParams = require('./config/particles')
 
@@ -22,7 +21,7 @@ class Social {
 
 const Author = {
     name: "PRASHANT BARAHI",
-    image: require("./assets/me.jpg"),
+    image: "https://avatars3.githubusercontent.com/u/25506584?s=460&v=4",
     social: [
         new Social("Gmail", "mailto: prashantbarahi@gmail.com", faGoogle, "Contact me"),
         new Social("GitHub", "https://github.com/realpacific", faGithub, "Fork GitHub"),

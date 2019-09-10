@@ -2,13 +2,13 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 function TypeWriter() {
-    const list = ['Prashant Barahi', '@realpacific', 'Full-Stack Software Engineer'];
+    const list = ['Prashant Barahi;', '@realpacific;', 'Full-Stack Software Engineer;'];
     const duration = 200;
     return (
         <div className="Typewriter">
             <Typewriter
                 onInit={(typewriter) => {
-                    typewriter.typeString('Hello World!')
+                    typewriter.typeString('Hello, World!')
                         .pauseFor(duration)
                         .deleteAll()
                         .typeString('I am ')

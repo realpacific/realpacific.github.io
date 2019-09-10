@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5 {
 .App-code {
     font-family: 'Fira Code', monospace;
     font-size: 2.5rem;
-    width: 80%;
+    height: 6rem;
+    align-content: center;
 }
 
 svg:hover {
