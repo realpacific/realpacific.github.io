@@ -26,7 +26,7 @@ const Author = {
         new Social("Gmail", "mailto: prashantbarahi@gmail.com", faGoogle, "Contact me"),
         new Social("GitHub", "https://github.com/realpacific", faGithub, "Fork GitHub"),
         new Social("Medium", "https://medium.com/@prashantbarahi", faMedium, "Read blogs"),
-        new Social("LinkedIn", "https://www.linkedin.com/in/prashant-barahi-b83438139/", faLinkedin, "Find me"),
+        new Social("LinkedIn", "https://www.linkedin.com/in/prashant-barahi-b83438139/", faLinkedin, "View Profile")
     ]
 }
 
