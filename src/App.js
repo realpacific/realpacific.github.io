@@ -60,7 +60,10 @@ class App extends Component {
                                         PRASHANT BARAHI
                                     </h1>
                                 </GlitchEffect>
-                                <h5 className='h3-like'>Kathmandu, Nepal</h5>
+                                <h3 className="subtitle" aria-level="1" aria-label="Name">
+                                    @realpacific
+                                </h3>
+                                <h3 className='subtitle'>Kathmandu, Nepal</h3>
                             </section>
                             <section>
                                 <h5 className="App-code" id="typewriter"><TypeWriter/></h5>

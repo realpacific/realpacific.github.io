@@ -37,6 +37,13 @@ h1.h3-like {
 }
 
 
+h3.subtitle, h5.subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.3rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
 a.icon {
     padding: 0.6rem;
     margin-right: 0.5rem;
